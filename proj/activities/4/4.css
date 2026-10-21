@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #222;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0 25px;
+    min-height: 55px;
+}
+
+.logo p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    min-height: 450px;
+    padding: 1px 20px;
+}
+
+.greetings h1 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.greetings p {
+    font-size: 11px;
+}
+
+.badge {
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    background-color: #c8233b;
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}

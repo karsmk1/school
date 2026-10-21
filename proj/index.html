@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of a BS Information Technology student.">
+    <title>BUHAT RESUME ITE1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="nav-logo" id="navLogo"
+               aria-label="Back to home">
+                ALFONSO JAYLIAN BUHAT<span>.</span>
+            </a>
+
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="#home">[ Home ]</a>
+                <a href="#about">[ About ]</a>
+                <a href="#skills">[ Skills ]</a>
+                <a href="#projects">[ Projects ]</a>
+                <a href="#contact">[ Contact ]</a>
+            </nav>
+
+            <!-- ICON-ONLY DARK/LIGHT MODE -->
+            <button class="theme-toggle" id="themeToggle"
+                    type="button" aria-label="Switch to dark mode"
+                    title="Switch theme" aria-pressed="false">
+                <span id="themeIcon" aria-hidden="true">☾</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- 00 / HOMEPAGE -->
+        <section class="section hero" id="home">
+            <div class="hero-image">
+                <img src="images/id.png"
+                     alt="Portrait of Your Name">
+            </div>
+
+            <div class="hero-content">
+                <p class="section-label">01 / HOMEPAGE</p>
+
+                <h1>
+                    HELLO WORLD,<br>
+                    I'M <span class="name-placeholder"> ALFONSO</span>
+                </h1>
+
+                <p class="hero-description">
+                    I'm a BS Information Technology student at Bestlink
+                    College of the Philippines. Welcome to my personal portfolio,
+                    where I share my skills, interests, and activities from class.
+                </p>
+            </div>
+        </section>
+
+        <!-- 02 / ABOUT -->
+        <section class="section about" id="about">
+            <p class="section-label">02 / ABOUT</p>
+            <h2>ABOUT ME</h2>
+
+            <div class="about-layout">
+                <div class="about-photo">
+                    <img src="images/2.png"
+                         alt="Your profile photo">
+                </div>
+
+                <div class="about-details">
+                    <div class="info-item">
+                        <p class="info-label">FULL NAME</p>
+                        <p class="info-value">ALFONSO JAYLIAN BUHAT</p>
+                    </div>
+
+                    <div class="info-item">
+                        <p class="info-label">COURSE</p>
+                        <p class="info-value">BS INFORMATION TECHNOLOGY</p>
+                    </div>
+
+                    <div class="info-item">
+                        <p class="info-label">SCHOOL</p>
+                        <p class="info-value">BESTLINK COLLEGE OF THE PHILIPPINES</p>
+                    </div>
+
+                    <div class="info-item">
+                        <p class="info-label">YEAR LEVEL</p>
+                        <p class="info-value">SECOND YEAR COLLEGE</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="biography">
+                I enjoy playing games and listening to music. I consider myself
+                an analytical and fast learner who likes to understand how things
+                work. I tend to ask a lot of questions because I want to learn
+                more, clarify things, and fully understand what I'm studying.
+            </p>
+        </section>
+
+        <!-- 03 / SKILLS -->
+        <section class="section skills" id="skills">
+            <p class="section-label">03 / SKILLS</p>
+
+            <div class="skills-layout">
+                <div class="skill-group">
+                    <h3>TECHNICAL SKILLS</h3>
+                    <ol>
+                        <li>HTML &amp; CSS</li>
+                        <li>Website Design</li>
+                        <li>C++ Programming</li>
+                    </ol>
+                </div>
+
+                <div class="skill-group">
+                    <h3>PERSONAL SKILLS</h3>
+                    <ol>
+                        <li>Analytical Thinking</li>
+                        <li>Fast Learning</li>
+                        <li>Problem-Solving</li>
+                        <li>Curiosity &amp; Willingness to Learn</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- 04 / PROJECTS -->
+        <section class="section projects" id="projects">
+            <p class="section-label">04 / PROJECTS</p>
+            <h2>MY PROJECTS</h2>
+
+            <div class="project-controls">
+                <p>CLASS ACTIVITIES &amp; PROJECTS</p>
+
+                <div class="arrow-controls">
+                    <button class="arrow-button" id="scrollLeft"
+                            type="button" aria-label="Scroll projects left">
+                        &#8592;
+                    </button>
+                    <button class="arrow-button" id="scrollRight"
+                            type="button" aria-label="Scroll projects right">
+                        &#8594;
+                    </button>
+                </div>
+            </div>
+
+            <div class="project-track" id="projectTrack">
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/act1.png"
+                             alt="Personal portfolio preview">
+                    </div>
+                    <p class="project-number">PROJECT 01</p>
+                    <h3>LYRICS</h3>
+                    <p class="project-description">
+                        PRELIM
+                    </p>
+                    <a class="source-link" href="https://github.com/karsmk1/lyrics/tree/04ff6d4db342625b82c0b0148d954addc732d239/1">SOURCE CODE ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/act2.png"
+                             alt="Class activity preview">
+                    </div>
+                    <p class="project-number">PROJECT 02</p>
+                    <h3>STUDENT CARD PROFILE</h3>
+                    <p class="project-description">
+                        PRELIM
+                    </p>
+                    <a class="source-link" href="https://github.com/karsmk1/studentcardprofile/tree/f6ef63bb9279cb268117015e6d9f0c8e3410a78f/2">SOURCE CODE ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/act3.png"
+                             alt="Additional project preview">
+                    </div>
+                    <p class="project-number">PROJECT 03</p>
+                    <h3>CSS Display and Position</h3>
+                    <p class="project-description">
+                        MIDTERM
+                    </p>
+                    <a class="source-link" href="https://github.com/karsmk1/cssdisplayandpositon/tree/a72b3e4912368a665d2d54250838f817ed86a00d/3">SOURCE CODE ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/act4.png"
+                             alt="Additional project preview">
+                    </div>
+                    <p class="project-number">PROJECT 04</p>
+                    <h3>Personal Website</h3>
+                    <p class="project-description">
+                        MIDTERM
+                    </p>
+                    <a class="source-link" href="https://github.com/karsmk1/personalwebsite/tree/3f2a18e3c52696447e6ccb2be36a5016857dbf10/4">SOURCE CODE ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/act5.png"
+                             alt="Additional project preview">
+                    </div>
+                    <p class="project-number">PROJECT 05</p>
+                    <h3>TEACHERS DAY LETTER</h3>
+                    <p class="project-description">
+                        FINALS
+                    </p>
+                    <a class="source-link" href="https://github.com/karsmk1/teachersday/tree/890fd26f395844ecdd4cce97cda45fd534c66e19/5">SOURCE CODE ↗</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- 05 / CONTACT -->
+        <section class="section contact" id="contact">
+            <p class="section-label">05 / CONTACT</p>
+            <h2>CONTACT</h2>
+
+            <div class="contact-list">
+                <div class="contact-item">
+                    <p class="info-label">EMAIL ADDRESS</p>
+                    <a href="mailto:your.email@example.com">
+                        jaylianalfonso@gmail.com ↗
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <p class="info-label">PHONE NUMBER</p>
+                    <p>+63 991 868 5410</p>
+                </div>
+
+                <div class="contact-item">
+                    <p class="info-label">SOCIAL / PROFESSIONAL LINKS</p>
+                    <div class="social-links">
+                        <a href="https://github.com/karsmk1"
+                           target="_blank" rel="noopener noreferrer">
+                            GITHUB ↗
+                        </a>
+                        <a href="https://www.facebook.com/karsmk.1/"
+                           target="_blank" rel="noopener noreferrer">
+                            FACEBOOK ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 ALFONSO JAYLIAN BUHAT</p>
+        <p>ITE1 PROJECT</p>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop"
+            type="button" aria-label="Back to top" title="Back to top">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
